@@ -1,0 +1,28 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,64,64)
+  { LResult Label
+    MoveScaled(10,29,44,22)
+    Font = Font["+7"]
+    Alignment = Align.Center
+    Border = Border.Plain
+  }
+  { TBFactura TextBox
+    MoveScaled(20,12,24,4)
+  }
+  { LFactura Label
+    MoveScaled(17,6,30,4)
+    Alignment = Align.Center
+    Text = ("Introduzca la factura sin IVA (en €):")
+  }
+  { LFactura2 Label
+    MoveScaled(18,22,28,4)
+    Alignment = Align.Center
+    Text = ("Su factura con IVA (en €):")
+  }
+  { BCalcular Button
+    MoveScaled(24,56,16,4)
+    Text = ("Calcular")
+  }
+}

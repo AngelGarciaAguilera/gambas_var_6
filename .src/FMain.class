@@ -1,0 +1,12 @@
+' Gambas class file
+
+Private factura As Integer
+
+Public Sub BCalcular_Click()
+  Dim iva As Integer
+  
+  factura = TBFactura.Text
+  iva = factura * 0.21
+  LResult.Text = factura + iva 
+
+End
